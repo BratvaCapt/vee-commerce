@@ -22,9 +22,9 @@ render() {
                     }>
 
               <Link to='/details'>
-
-                  <img src={img} alt='product' className='card-img-top'/>
-
+                  
+                  <img src={img} alt='product' width='400px' height='400px' className='card-img-top'/>
+                  
               </Link>
 
               <button className='cart-btn' 
@@ -74,6 +74,7 @@ Product.propTypes = {
  .card {
      border-color: transparent;
      transition: all 1s linear;
+     margin: 10px;
  }
  .card-footer{
      background: transparent;
@@ -120,5 +121,6 @@ Product.propTypes = {
 .cart-btn:hover {
    color: var(--mainBlue);
    cursor: pointer;
-}  
+} 
+
     `;

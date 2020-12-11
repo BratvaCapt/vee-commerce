@@ -14,7 +14,7 @@ export default function Navbar() {
         <ul className='navbar-nav align-items-center'>
       <li className='nav-items ml-5'>
     <Link to='/' className='nav-link'>
-    Products
+ <h1> Vee's Phone Store </h1>
     </Link>
       </li>
         </ul>
@@ -35,7 +35,7 @@ export default function Navbar() {
   background: var(--mainBlue);
   .nav-link{
     color: var(--mainWhite)!important;
-    font-size:1.3rems;
+    font-size:1.9rems;
     text-transform: capitalize;
   }
  `
