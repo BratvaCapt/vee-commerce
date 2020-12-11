@@ -23,7 +23,7 @@ render() {
 
               <Link to='/details'>
                   
-                  <img src={img} alt='product' width='400px' height='400px' className='card-img-top'/>
+                  <img src={img} alt='product' width='400px' height='250px' className='card-img-top'/>
                   
               </Link>
 

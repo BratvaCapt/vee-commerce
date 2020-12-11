@@ -27,7 +27,7 @@ export default function Vee(){
 <div id='content' >
 What is a Gem? Well in literal terms it means a precious stone incorprated into
 jewelry. But figuratively, it means something precious, something you are not willing
-to lose. I have few of those in my life and the lady above is a very significant one.<br/>
+to lose, something beautiful. I have just a few of those in my life and the lady above is a very significant one.<br/>
 Beauty, Love, Care, Heart, Determination... These are just few of the qualities i admire
 in her, And Vee Thanks for pushing me to acquire a skill that i like, i'd have been dead 
 with boredom by now. I'll stop here Sha, lemme not add to your reading schedule, just remember
@@ -77,9 +77,11 @@ justify-content: center;
    transform: rotateY(180deg);
   }
 
- .contain:hover .cardin {
+ .contain:active .cardin {
   transform: rotateY(180deg);
  }
+ 
+
  .contain {
   perspective: 1000px;
  }
