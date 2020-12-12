@@ -11,7 +11,7 @@ export default function Vee(){
 <img src ='./images/Vee.jpg' alt='Vee' height= '550px'
     width= '350px'/>
 </div>
-<div className='back'>
+<div id='yeah' className='back'>
     <img src ='./images/Eddy.jpg' alt='Eddy'  height= '550px'
     width= '350px'/>
 </div>
